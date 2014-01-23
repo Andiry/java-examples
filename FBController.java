@@ -10,7 +10,7 @@ public class FBController extends WindowController
 	public void onMouseClick(Location point)
 	{
 //		new Text("Touched", point.getX(), point.getY(), canvas);
-		new FB(point, canvas);
+		new BouncingBall(point, canvas);
 	}
 
 }
